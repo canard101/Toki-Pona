@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.5;
+  margin: 20px;
+  padding: 20px;
+}
+a {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 3px;
+  font-weight: normal;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+}
+ul {
+  margin: 20px 0; /* Ajuste la valeur de la marge selon ton besoin */
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px; /* Ajuste la valeur pour l'espacement entre les éléments de la liste */
+}
+
+span {
+    font-size: 14px;
+}
+
+footer {
+    border: 1px solid #333;
+}
+
+#linkToOriginal{
+    text-decoration: none;
+}
